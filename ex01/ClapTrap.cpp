@@ -6,7 +6,7 @@
 /*   By: vfiszbin <vfiszbin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 19:09:37 by vfiszbin          #+#    #+#             */
-/*   Updated: 2022/07/29 10:15:09 by vfiszbin         ###   ########.fr       */
+/*   Updated: 2022/07/29 10:24:09 by vfiszbin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,6 @@ ClapTrap::~ClapTrap()
 	std::cout << "ClapTrap destructor called" << std::endl;
 	return ;
 }
-
 
 void ClapTrap::attack(const std::string& target)
 {
